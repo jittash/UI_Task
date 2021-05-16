@@ -1,0 +1,216 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+img{
+    height: auto;
+}
+
+/*Header CSS*/
+.header{
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    padding: 10px 0 0 0 ;
+
+}
+.menu{
+    align-items: center;
+    padding:0 0 0 -5px;
+}
+.menu li{
+    display: inline;
+    list-style: none;
+}
+.menu li:last-child{
+    margin-left: 25px;
+}
+.menu li a{
+    display:inline-block;
+    text-decoration: none;
+    color: #858585;
+    font-size: 13px;
+    padding: 5px 8px;
+    font-weight: 600;
+}
+
+ .getstartedbtn,.signup-button{
+    color: white;
+    border: none;
+    text-align: center;
+    border-radius: 25px ;
+    padding: 10px 30px;
+    background-image: linear-gradient(to right,#ad1374 ,#f14a5a);
+}
+
+/*Happy-Educator*/
+
+.happy-educator{
+    background-color: #fcfdff;
+    display: flex;
+    flex-wrap: nowrap;
+    box-sizing: border-box;
+    padding: 120px 120px;
+    background-image: linear-gradient(#ebeded,#fcfdff 3%);
+}
+.get-started{
+    padding: 0 0 0 10px;
+}
+.get-started h1,.academic-institutions h1{
+    font-size: 2em;
+    line-height: 1.5;
+    color: #414a4d;
+    font-weight: bold;
+}
+.get-started p,.academic-institutions p{
+    padding: 25px 0 50px 0;
+    font-size: 1.05em;
+    font-weight: 625;
+    color: #707070;
+    line-height: 1.75;
+}
+.get-started div{
+    font-size: 0.9em;
+    padding: 10px 0;
+    color:#707070
+}
+.educator-image{
+    margin-left: 35px;
+}
+
+/*Institution*/
+.academic-institutions{
+    box-sizing: border-box;
+    padding: 0 120px;
+    background-color: #fcfdff;
+}
+.institution-images{
+    padding-left:10px;
+}
+.institution-item{
+    padding-right: 0 50px 0;
+}
+.item-heading{
+    color: #414a4d;
+    padding-top: 40px;
+    font-size: 1em;
+    font-weight: bold;
+}
+.item-paragraph{
+    color:#707070;
+}
+
+.portal{
+    background-color: #fcfdff;
+}
+
+/**/
+.student{
+    box-sizing: border-box;
+    padding:0 120px;
+    background-color: #fcfdff;
+}
+
+.darkgreybg{
+    background-color: #f2f5f9;
+    padding: 50px;
+}
+.student-item span{
+    font-weight: 600;
+}
+
+/**/
+.portal{
+    margin-top:170px;
+    box-sizing: border-box;
+    background-color: #fcfdff;
+}
+.portal-text .portal-image{
+    padding:100px;
+}
+
+
+/*Admin*/
+.admin{
+    box-sizing: border-box;
+    padding: 0 120px;
+    background-color: #fcfdff;
+}
+
+/**/
+.unique-needs{
+    margin-top: 100px;
+    box-sizing: border-box;
+    padding: 0 120px;
+    background-color: #fcfdff;
+}
+.learnbtn{
+    padding: 10px 30px;
+    border-radius: 25px;
+    background-color: #fcfdff;
+}
+
+/*Reviews*/
+.reviews{
+    margin-top: 100px;
+    box-sizing: border-box;
+    padding: 0 120px;
+}
+
+.appointy-priority{
+    background-color: #f2f5fa;
+}
+.priority-item{
+    background-color: #ffffff;
+}
+
+
+/* sign-up */
+.sign-up{
+    margin:50px 0 ;
+    box-sizing: border-box;
+    padding:0 120px;
+}
+.buttonpadding{
+    margin-top: 50px;
+}
+.footerimage{
+    box-sizing: border-box;
+    /*width: 100%;
+    height: 254px;
+    background-image: url("./img/12.sign-up/Footer-Element-1536x254.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;*/
+}
+/**/
+.footer li{
+    list-style: none;
+    padding-left: none;
+    margin-left: none;
+}
+.upper-footer{
+    background-color: #edf1f6;
+}
+.upper-footer h4{
+    padding-left: 30px;
+}
+.upper-footer ul{
+    font-size: .75em;
+}
+
+
+.copyright{
+    background-color: #272a2b;
+}
+.copyright p{
+    color: #707070;
+    padding-top: 20px;
+    padding-left: 180px;
+}
+.copyimg{
+    padding:10px 0;
+    border-radius: 50%;
+}
